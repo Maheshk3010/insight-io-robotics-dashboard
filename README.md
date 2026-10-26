@@ -102,6 +102,17 @@ After running the app locally, capture a screen recording showing at least:
 
 Save the capture into the repository (for example, `docs/demo.mp4`) and link it from the public GitHub repository. Use your own screen recording from the running build so it accurately reflects the submitted code.
 
+## Screenshots
+
+ 1. Warehouse Floor Map
+![Insight.IO Warehouse Floor Map](docs/dashboard-map.png)
+
+ 2. Camera View
+![Insight.IO Camera View](docs/camera-view.png)
+
+ 3. 3D Point Cloud
+![Insight.IO 3D Point Cloud](docs/3d-point-cloud.png)
+
 ## Submission checklist
 
 - [ ] `npm install` succeeds on a clean machine.
