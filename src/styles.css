@@ -191,3 +191,17 @@
     transform-origin: right center;
   }
 }
+/* Keep desktop 3D-cloud controls clear of mission controls */
+@media (min-width: 621px) {
+  .cloud-world .cloud-title {
+    top: 104px;
+  }
+
+  .cloud-world .pcd-upload-button {
+    top: 104px;
+  }
+
+  .cloud-world .cloud-mode-toggle {
+    top: 138px;
+  }
+}
