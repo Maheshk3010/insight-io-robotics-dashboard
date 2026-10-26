@@ -3,3 +3,267 @@
 @media(max-width:900px){.top-left-controls{left:12px}.top-right-controls{right:12px}.telemetry-capsule{min-width:228px;padding:0 6px}.telemetry-item{padding:0 5px}.telemetry-item .telemetry-label{display:none}.active-view-chip{top:37px}.map-blueprint{left:16%;width:clamp(440px,75vw,680px)}.emergency-control{right:15px;top:58%;transform:scale(.9)}.direction-pad{right:14px;bottom:22px;transform:scale(.88);transform-origin:bottom right}.camera-pip-wrap{left:26px;bottom:26px}.mini-map-card{left:26px;bottom:26px}.world-footer-left{left:13px;bottom:7px}.map-coordinate-chip{display:none}}
 @media(max-width:620px){.insight-screen{min-height:430px}.robot-sidebar,.brand-tile{width:38px;flex-basis:38px}.brand-tile{height:42px}.robot-nav-button{width:38px;height:34px}.robot-nav{padding-top:25px;gap:8px}.brand-tile strong{font-size:12px}.telemetry-capsule{top:48px;left:50%;min-width:0;width:max-content;height:29px;border-radius:8px;transform:translateX(-50%);padding:0 5px}.telemetry-item{gap:3px;padding:0 4px}.telemetry-item svg{width:11px;height:11px}.telemetry-item strong,.telemetry-item .telemetry-label{font-size:7px}.telemetry-divider{height:10px;margin-left:1px}.top-left-controls{top:8px;left:8px;gap:5px}.mission-status-pill{min-width:142px;width:142px;height:25px;gap:5px;padding-left:7px}.mission-status-pill>span{font-size:7px}.mission-status-pill strong{font-size:7px}.mission-status-pill button{width:19px;height:19px}.quick-goal-pill,.initiate-pill{height:24px;min-width:88px;padding-left:8px;font-size:7px;gap:5px}.pill-arrow{width:17px;height:17px}.top-right-controls{top:8px;right:7px;gap:5px}.mode-toggle{height:25px;padding:2px;gap:1px}.mode-toggle>span{font-size:7px;padding-left:5px;padding-right:3px}.mode-toggle button{height:19px;min-width:32px;font-size:7px;padding:0 5px}.active-view-chip{top:81px;padding:4px 10px;font-size:7px}.map-blueprint{left:-4%;top:3%;height:99%;width:clamp(460px,102vw,650px);transform:rotate(-11deg) scale(var(--map-zoom));transform-origin:56% 48%}.camera-pip-wrap{left:18px;bottom:39px;gap:5px}.camera-pip-button,.mini-map-card{width:clamp(142px,39vw,210px);height:clamp(74px,20vw,106px)}.zoom-rail{height:87px;width:14px;gap:3px}.zoom-rail input{height:53px;width:10px}.zoom-rail button{width:12px;height:12px;font-size:12px}.mini-map-card{left:17px;bottom:38px}.emergency-control{right:6px;top:56%;transform:scale(.76);transform-origin:right center}.direction-pad{right:4px;bottom:25px;transform:scale(.72);transform-origin:bottom right}.world-footer-left{left:8px;bottom:11px;font-size:6px;gap:4px}.world-footer-left .world-footer-divider{margin:0 1px}.action-toast{top:118px;font-size:9px}.emergency-screen-banner{bottom:5px;left:47%;font-size:8px;padding:7px 8px}.camera-feed-large .camera-label-row{top:130px;left:12px;right:12px;font-size:7px}.camera-meta{left:12px;bottom:12px;font-size:7px}.camera-box span{font-size:6px}.cloud-title{top:118px;left:10px;font-size:8px;gap:5px}.cloud-title small{font-size:6px}.pcd-upload-button{top:116px;right:8px;font-size:7px;padding:6px}.cloud-mode-toggle{top:146px;right:8px}.pointcloud-wrap .map-overlay-top{top:177px;left:8px;right:8px}.pointcloud-wrap .map-overlay-bottom{bottom:8px;left:8px;right:8px}.cloud-world .top-left-controls,.cloud-world .top-right-controls{opacity:.96}}
 @media(max-width:390px){.telemetry-capsule{top:47px}.top-left-controls{top:8px}.mission-status-pill{width:126px;min-width:126px}.mission-status-pill>span{display:none}.top-right-controls{top:8px}.mode-toggle>span{display:none}.mode-toggle button{min-width:34px}.quick-goal-pill{min-width:79px}.initiate-pill{min-width:76px}.active-view-chip{top:81px}.camera-pip-button,.mini-map-card{width:138px;height:72px}.camera-pip-wrap{left:15px;bottom:37px}.mini-map-card{left:15px;bottom:37px}.direction-pad{right:1px;bottom:21px;transform:scale(.66);transform-origin:bottom right}.emergency-control{right:2px;transform:scale(.7);transform-origin:right center}}
+
+/* Mobile responsive improvements */
+@media (max-width: 600px) {
+  .insight-screen {
+    height: 100dvh;
+    min-height: 0;
+  }
+
+  .robot-sidebar {
+    flex: 0 0 36px;
+    width: 36px;
+  }
+
+  .brand-tile,
+  .robot-nav-button {
+    width: 36px;
+  }
+
+  .robot-nav {
+    padding-top: 18px;
+    gap: 8px;
+  }
+
+  .top-left-controls {
+    top: 8px;
+    left: 7px;
+    gap: 5px;
+  }
+
+  .mission-status-pill {
+    min-width: 0;
+    width: 156px;
+    height: 28px;
+    padding-left: 8px;
+    gap: 5px;
+  }
+
+  .mission-status-pill > span,
+  .mission-status-pill strong {
+    font-size: 7px;
+  }
+
+  .quick-goal-pill {
+    min-width: 90px;
+    height: 25px;
+    padding-left: 8px;
+    font-size: 7px;
+  }
+
+  .top-right-controls {
+    top: 8px;
+    right: 7px;
+    gap: 5px;
+  }
+
+  .mode-toggle {
+    height: 28px;
+    gap: 1px;
+    padding: 2px;
+  }
+
+  .mode-toggle > span {
+    padding: 0 3px;
+    font-size: 7px;
+  }
+
+  .mode-toggle button {
+    min-width: 31px;
+    height: 21px;
+    padding: 0 5px;
+    font-size: 7px;
+  }
+
+  .initiate-pill {
+    min-width: 82px;
+    height: 25px;
+    padding-left: 8px;
+    font-size: 7px;
+  }
+
+  .telemetry-capsule {
+    top: 72px;
+    width: min(238px, calc(100% - 20px));
+    min-width: 0;
+    height: 28px;
+    padding: 0 4px;
+    border-radius: 7px;
+  }
+
+  .telemetry-item {
+    gap: 3px;
+    padding: 0 4px;
+    font-size: 7px;
+  }
+
+  .telemetry-item strong {
+    font-size: 7px;
+  }
+
+  .active-view-chip {
+    top: 104px;
+    font-size: 7px;
+  }
+
+  .warehouse-map {
+    inset: 0;
+  }
+
+  .map-blueprint {
+    width: min(430px, 108vw);
+    height: 100%;
+    left: -10%;
+    top: 0;
+  }
+
+  .map-coordinate-chip {
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 7px;
+  }
+
+  .camera-pip-wrap {
+    left: 8px;
+    bottom: 37px;
+    gap: 5px;
+  }
+
+  .zoom-rail {
+    width: 14px;
+    height: 80px;
+    gap: 4px;
+  }
+
+  .zoom-rail input {
+    height: 44px;
+  }
+
+  .camera-pip-button,
+  .mini-map-card {
+    width: clamp(112px, 38vw, 148px);
+    height: clamp(62px, 22vw, 88px);
+  }
+
+  .mini-map-card {
+    left: 8px;
+    bottom: 37px;
+  }
+
+  .world-footer-left {
+    left: 8px;
+    bottom: 8px;
+    gap: 4px;
+    font-size: 6px;
+    letter-spacing: 0.2px;
+  }
+
+  .emergency-control {
+    right: 10px;
+    top: 53%;
+    width: 58px;
+    height: 64px;
+  }
+
+  .emergency-ring {
+    width: 47px;
+    height: 47px;
+    border-width: 5px;
+  }
+
+  .emergency-ring svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .direction-pad {
+    right: 8px;
+    bottom: 36px;
+    width: 68px;
+    height: 68px;
+  }
+
+  .direction-pad button {
+    width: 20px;
+    height: 20px;
+  }
+
+  .pad-center {
+    width: 25px;
+    height: 25px;
+  }
+
+  .cloud-title {
+    top: 111px;
+    left: 8px;
+    font-size: 8px;
+    gap: 5px;
+  }
+
+  .cloud-title small {
+    display: none;
+  }
+
+  .pcd-upload-button {
+    top: 108px;
+    right: 8px;
+    padding: 6px 7px;
+    font-size: 7px;
+  }
+
+  .cloud-mode-toggle {
+    top: 140px;
+    right: 8px;
+  }
+
+  .cloud-mode-toggle button {
+    padding: 5px 6px;
+    font-size: 7px;
+  }
+
+  .pointcloud-wrap .map-overlay-top {
+    top: 178px;
+    left: 8px;
+    right: 8px;
+  }
+
+  .pointcloud-wrap .map-overlay-bottom {
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+  }
+
+  .camera-feed-large .camera-label-row {
+    top: 114px;
+    left: 9px;
+    right: 9px;
+    font-size: 7px;
+  }
+
+  .camera-box {
+    left: 15%;
+    top: 35%;
+    width: 24%;
+    height: 20%;
+  }
+
+  .box-b {
+    left: 59%;
+    top: 44%;
+    width: 23%;
+    height: 18%;
+  }
+
+  .camera-meta {
+    left: 8px;
+    bottom: 8px;
+    font-size: 7px;
+  }
+
+  .action-toast {
+    top: 107px;
+    max-width: calc(100% - 18px);
+    font-size: 9px;
+  }
+}
