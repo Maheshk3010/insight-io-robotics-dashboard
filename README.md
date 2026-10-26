@@ -56,7 +56,7 @@ npm run preview
 - **AUTO / MANUAL:** switch the operator mode indicator.
 - **INITIATE / RESUME** or the pause button: pause/resume the simulated mission.
 - **Emergency STOP:** engage/release the emergency-stop simulation.
-- **Direction pad:** logs a simulated move/turn command and switches to Manual mode.
+- - **Direction pad:** In Manual mode, the arrows move the simulated robot marker forward or backward and rotate its heading. In Auto mode, directional commands display a prompt to switch to Manual mode. Emergency Stop disables movement commands.
 - **Zoom controls:** change the floor-map scale.
 - **Load .PCD:** choose another local ASCII PCD file while in 3D mode.
 
