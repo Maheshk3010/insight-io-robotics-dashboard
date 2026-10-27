@@ -113,6 +113,10 @@ Save the capture into the repository (for example, `docs/demo.mp4`) and link it 
  3. 3D Point Cloud
 ![Insight.IO 3D Point Cloud](docs/3d-point-cloud.png)
 
+## Demo Video
+
+[Watch the Insight.IO Dashboard Demo](docs/demo.mp4)
+
 ## Submission checklist
 
 - [ ] `npm install` succeeds on a clean machine.
