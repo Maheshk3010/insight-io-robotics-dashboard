@@ -117,14 +117,21 @@ Save the capture into the repository (for example, `docs/demo.mp4`) and link it 
 
 [Watch the Insight.IO Dashboard Demo](docs/demo.mp4)
 
-## Submission checklist
+The demo shows the warehouse map, local camera video, interactive 3D
+point cloud, simulated Auto/Manual controls, mission controls, and
+emergency-stop interface.
 
-- [ ] `npm install` succeeds on a clean machine.
-- [ ] `npm run build` succeeds.
-- [ ] Sample MP4 and PCD files are present in `public/`.
-- [ ] Desktop and mobile layouts have been checked.
-- [ ] Screenshots or a short demo recording are added.
-- [ ] Repository is public and README setup instructions are easy to follow.
+## Submission Checklist
+
+- [x] React dashboard source code committed to GitHub.
+- [x] Local camera MP4 and sample ASCII PCD included.
+- [x] Production build completes successfully.
+- [x] Dependency audit reports zero vulnerabilities.
+- [x] Three dashboard screenshots added.
+- [x] Demo video added to the repository.
+- [x] Local setup instructions documented.
+- [ ] Test installation on a separate clean machine.
+- [ ] Verify the dashboard at additional mobile viewport sizes.
 
 ## License / sample assets
 
